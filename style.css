@@ -1,0 +1,89 @@
+
+.header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1px;
+    margin: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    height: 80px;
+}
+
+.header h2 {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.logo-left {
+    margin-right: 10px;
+}
+.logo-right {
+    margin-left: 10px;
+}
+
+h5 {
+    color: rgb(201, 28, 28);
+}
+
+h3 {
+    text-align: center;
+}
+
+
+
+.student {
+    background-color: papayawhip;
+}
+
+.report {
+    background-color: rgb(162, 247, 247);
+}
+
+.details {
+    background-color: rgb(235, 183, 168);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container > div {
+    flex: 1 1 calc(45% - 40px);
+    margin: 10px;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: cadetblue;
+    padding: 1px;
+    margin: 6px;
+}
+
+body {
+    margin: auto;
+    padding: 0px;
+    background-color: rgb(248, 243, 238);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container > div {
+        flex: 1 1 100%;
+        max-width:90%;
+}
+}
